@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "input": {
+    "version": 1,
+    "guardrails": [
+      {
+        "name": "Custom Prompt Check",
+        "config": {
+          "model": "gpt-4o-mini",
+          "confidence_threshold": 0.8,
+          "system_prompt_details": "Vérifiez si le texte contient un prénom ou nom de famille d'une personne (ex: Alice, Bob). Les rôles ou titres de poste (ex: CEO, Directeur, Head of) NE SONT PAS des noms de personnes protégés. Indiquez une correspondance certaine SEULEMENT si un vrai prénom est présent."
+        }
+      }
+    ]
+  }
+}
